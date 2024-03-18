@@ -1,12 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
   }
-  
-  body {
+    body {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -14,8 +12,7 @@
     align-items: center;
     background-color: #ffe5e5;
   }
-  
-  .container {
+    .container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -24,8 +21,7 @@
     max-width: 200px;
     margin: 20px;
   }
-  
-  .container .tenor-gif-embed {
+    .container .tenor-gif-embed {
     max-width: 200px;
   }
   
@@ -33,8 +29,7 @@
     display: flex;
     gap: 25px;
   }
-  
-  .btn a {
+    .btn a {
     text-decoration: none;
     color: #111;
     background: #fff;
