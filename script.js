@@ -13,8 +13,8 @@ function tossCoinFunction() {
 	const randomVal = Math.random(); 
 	const faceCoin = randomVal < 0.5 ? 'Heads' : 'Tails'; 
 	const imageUrl = faceCoin === 'Heads' ? 
-'https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2FHead-Coin&psig=AOvVaw24tM-UI9sm-eRfdZUiOI-r&ust=1711017767453000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDN1oTUgoUDFQAAAAAdAAAAABAJ' : 
-'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngaaa.com%2Fdetail%2F894139&psig=AOvVaw06WV7QXHkKqONlaBOooyKJ&ust=1711017978607000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiNiunUgoUDFQAAAAAdAAAAABAJ'; 
+'https://media.geeksforgeeks.org/wp-content/uploads/20231016151817/heads.png' : 
+'https://media.geeksforgeeks.org/wp-content/uploads/20231016151806/tails.png';
 		
 	coinIcon.classList.add('flip'); 
 	setTimeout(() => { 
